@@ -15,7 +15,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot! deepa" ;
+		return "Greetings from Spring Boot! Hi Deepa!!!" ;
 	}
 
 }
