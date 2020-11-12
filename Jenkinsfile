@@ -3,9 +3,9 @@ pipeline{
   
   stages {
   
-    stage('Compile stage'){
+    stage('Build stage'){
       steps{
-             sh 'mvn clean compile'        
+             sh 'mvn -f demo/pom.xml clean install'        
            }
           }
           
